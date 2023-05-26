@@ -42,7 +42,7 @@ void prompt(char **av, char **env)
 
 		k = 0;
 		argv[k] = strtok(string, " ");
-		while (argv [k])
+		while (argv[k])
 		{
 			k++;
 			argv[k] = strtok(NULL, " ");
